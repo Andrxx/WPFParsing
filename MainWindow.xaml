@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <DataGrid x:Name="dataGrid" Margin="0,230,0,0"/>
+        <Button x:Name="LoadButton" Content="Загрузить данные" HorizontalAlignment="Left" Margin="50,50,0,0" VerticalAlignment="Top" Height="30" Width="137" Click="LoadButton_Click"/>
+        <Button x:Name="button" Content="Обновить данные" HorizontalAlignment="Left" Margin="300,50,0,0" VerticalAlignment="Top" Height="30" Width="137" Click="button_Click"/>
+        <Button x:Name="LoadNewButton" Content="Загрузить данные с новым ГУИД" HorizontalAlignment="Left" Margin="50,106,0,0" VerticalAlignment="Top" Height="30" Width="137" Click="LoadNewButton_Click"/>
     </Grid>
 </Window>
